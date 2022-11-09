@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <title>Periodico Escolar</title>
+</head>
+<body>
+    <article>
+        <header>
+            <nav id="navbar-example2" class="navbar px-3 mb-3">
+                <a class="navbar-brand" href="#scrollInicio"><img src="images/logmenu.png" alt=""></a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a class="nav-link" href="#scrollInicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scrollBeneficios">Beneficios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scrollCaracteristicas">Caracteristicas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scrollNuestroEquipo">Nuestro Equipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scrollContactenos">Contactenos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </article>
+    <article>
+        <section>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
+                <!--Inicio-->
+                <section id="scrollInicio" class="seccion" style="background-image: url('images/bgInicio.png');">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col" id="divcardInicio">
+                                <p style="margin: 50px; font-size: 60px; text-align: left;">La WEB educativa que tanto esperabas</p>
+                            </div>
+                            <div class="col" id="divcardInicio">
+                                <img src="images/logo.png" id="logo">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Beneficios-->
+                <section id="scrollBeneficios" class="seccion">
+                    <div class="container text-center" id="divContainer">
+                        <div class="row">
+                            <div class="col" id="divcardBenedifios">
+                                <img src="images/beneficios1.png" class="imgBeneficios">
+                                <p class="pharagrapHome">Se el primero en participar en nuestros eventos</p>
+                            </div>
+                            <div class="col" id="divcardBenedifios">
+                                <img src="images/beneficios2.png" class="imgBeneficios">
+                                <p class="pharagrapHome">Enterate velozmente de nuestras publicaciones</p>
+                            </div>
+                            <div class="col" id="divcardBenedifios">
+                                <img src="images/beneficios3.png" class="imgBeneficios">
+                                <p class="pharagrapHome">Conoce nuestras instalaciones de manera rápida</p>
+                            </div>
+                            <div class="col" id="divcardBenedifios"> 
+                                <img src="images/beneficios4.png" class="imgBeneficios">
+                                <p class="pharagrapHome">Interactué con la comunidad educativa</p>
+                            </div>
+                            <div class="col" id="divcardBenedifios">
+                                <img src="images/beneficios5.png" class="imgBeneficios">
+                                <p class="pharagrapHome">Destaca las noticias que más te gustan</p>
+                            </div>
+                        </div>
+                        <br><br>
+                    <p class="pharagrapHome">Estos son algunos de los beneficios que tienes al usar nuestro sistema</p>
+                    </div>
+                </section>
+
+                <!--Caracteristicas-->
+                <section id="scrollCaracteristicas" class="seccion" style="background-image: url('images/bgCaracteristicas.png');">
+                    <div class="container text-center" id="divContainer">
+                        <br>
+                        <h1>Funcionalidades</h1>
+                        <p class="pharagrapHome">Conoce algunas de nuestras funcionalidades principales que te harán enamorar</p>
+                        
+                        <div class="row">
+                            <div class="col" id="divcardBenedifios">
+                                <img src="images/caracteristicas.png" class="imgBeneficios">
+                                <p class="pharagrapHome">Información en línea</p>
+                            </div>
+                            <div class="col" id="divcardBenedifios">
+                                <img src="images/caracteristicas.png" class="imgBeneficios">
+                                <p class="pharagrapHome">Destaca contenido</p>
+                            </div>
+                            <div class="col" id="divcardBenedifios">
+                                <img src="images/caracteristicas.png" class="imgBeneficios">
+                                <p class="pharagrapHome">Busca y filtra de manera rápida</p>
+                            </div>
+                            <div class="col" id="divcardBenedifios"> 
+                                <img src="images/caracteristicas.png" class="imgBeneficios">
+                                <p class="pharagrapHome">Actualiza tu perfil</p>
+                            </div>
+                            <div class="col" id="divcardBenedifios">
+                                <img src="images/caracteristicas.png" class="imgBeneficios">
+                                <p class="pharagrapHome">Interacción por comentarios</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Nuestro Equipo-->
+                <section id="scrollNuestroEquipo" class="seccion">
+                    <div class="container text-center" id="divContainer">
+                        <br>
+                        <h1>Conoce Nuestro Equipo</h1>
+                        <div class="row">
+                            <div class="col" id="divcardBenedifios">
+                                <img src="images/enmanuel.png" class="imgEquipo">
+                                <p class="pharagrapHome">Enmanuel Tavera Muñoz</p>
+                            </div>
+                            <div class="col" id="divcardBenedifios">
+                                <img src="images/camila.png" class="imgEquipo">
+                                <p class="pharagrapHome">Maria Camila Castrillon</p>
+                            </div>
+                            <div class="col" id="divcardBenedifios">
+                                <img src="images/santiago.png" class="imgEquipo">
+                                <p class="pharagrapHome">Santiago Valencia Guzman</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Contactenos-->
+                <section id="scrollContactenos" class="seccion">
+                    <div class="container text-center" id="divContainer">
+                        <br>
+                        <div class="row">
+                            <div class="col" id="divcardContactenos">
+                                <br><br>
+                                <h1>¡Haznos una pregunta!</h1>
+                                <br>
+                                <form action="" method="POST" id="formContacto">
+                                    <div class="input-group">
+                                        <div class="form-floating mb-2" style="margin-right: 5px;">
+                                            <input type="text" class="form-control" id="nombre" placeholder="Nombre" >
+                                            <label for="nombre">Nombre</label>
+                                        </div>
+                                        <div class="form-floating mb-2" style="margin-left: 5px;">
+                                            <input type="text" class="form-control" id="apellido" placeholder="Apellido" >
+                                            <label for="apellido">Apellido</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-floating mb-2">
+                                        <input type="text" class="form-control" id="asunto" placeholder="Asunto" >
+                                        <label for="asunto">Asunto</label>
+                                    </div>
+                                    <div class="form-floating mb-2">
+                                        <input type="email" class="form-control" id="email" placeholder="name@example.com" >
+                                        <label for="email">Email address</label>
+                                    </div>
+                                    <div class="form-floating mb-2">
+                                        <textarea class="form-control" id="mensaje" placeholder="Escribe aquí tú mensaje" style="min-height: 150px; max-height: 150px;" ></textarea>
+                                        <label for="mensaje">Escribe aquí tú mensaje</label>
+                                    </div>
+                                    <div class="input-group">
+                                        <button type="button" onclick="enviarform()" id="btnEnviar" class="btn btn-danger" style="margin-right: 5px; width: 49%;">Enviar</button>
+                                        <button type="button" onclick="resetform()" id="btnLimpiar" class="btn btn-danger" style="margin-left: 5px; width: 49%;">Limpiar</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="col text-center" id="divcardContactenos">
+                                <h1>Síguenos en nuestras redes sociales</h1>
+                                <a href="#"><img src="images/facebook.png" alt=""></a> 
+                                <a href="#"><img src="images/instagram.png" alt=""></a> 
+                                <a href="#"><img src="images/youtube.png" alt=""></a> 
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+</body>
+</html>

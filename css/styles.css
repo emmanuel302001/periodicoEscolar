@@ -1,0 +1,54 @@
+*{
+    font-family: "https://fonts.googleapis.com/css?family=Source Sans Pro";
+    font-size: 17px;
+}
+.seccion{
+    width: 100%;
+    height: 100vh;
+}
+#navbar-example2{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+#logo{
+    width: 470px;
+    height: 260px;
+}
+#divcardInicio{
+    margin-top: 150px;
+}
+#divcardBenedifios,#divcardContactenos{
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #FFF4F3;
+    text-align: center;
+}
+.imgBeneficios{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#scrollBeneficios, #scrollContactenos{
+    background: linear-gradient(
+        to top,
+        #FCF6CC 0%,
+        #FCF6CC 50%,
+        #fff 50%,
+        #fff 100%
+    );
+}
+.pharagrapHome{
+    font-size: 20px;
+}
+.imgEquipo{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+}
+.warnings{
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
